@@ -14,7 +14,7 @@
 			</div>
 			<div class="col-sm-6 kintoneplugin-input-outer">
 				<input type="text" class="form-control kintoneplugin-input-text"
-					v-model="config.accessKeyId" required />
+					v-model="config.name" required />
 			</div>
 		</div>
 		<div class="row kintoneplugin-row">
@@ -30,6 +30,17 @@
 					  </option>
 					</select>
 				</div>
+			</div>
+		</div>
+		<div class="row kintoneplugin-row">
+			<div class="col form-group">
+				<button type="submit" class="kintoneplugin-button-dialog-ok">
+					保存
+				</button>
+				<button type="button" class="kintoneplugin-button-dialog-cancel"
+				  v-on:click="history.back()">
+					キャンセル
+				</button>
 			</div>
 		</div>
 	</form>

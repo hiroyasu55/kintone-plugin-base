@@ -20,7 +20,7 @@ const paths = {
   'html': './src/html/*.html',
   'image': './src/image/*.+(png|jpg|jpag|svg|ico)',
   'contents': './dist/contents',
-  'package': './scripts/package.sh'
+  'package': './package.sh'
 }
 
 const manifest = require(paths.manifest)

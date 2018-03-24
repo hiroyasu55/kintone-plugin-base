@@ -10,7 +10,7 @@
     "en": "Sample plugin, using kinton-plugin-base",
     "ja": "kinton-plugin-baseを利用したサンプルプラグイン"
   },
-  "icon": "image/icon.jpg",
+  "icon": "image/icon.png",
   "homepage_url": {
     "ja": "https://github.com/logicheart/kintone-plugin-base"
   },
@@ -20,6 +20,11 @@
     ],
     "css": [
       "css/desktop.css"
+    ]
+  },
+  "mobile": {
+    "js": [
+      "js/mobile.js"
     ]
   },
   "config": {

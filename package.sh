@@ -1,6 +1,5 @@
 #!/bin/sh
-SCRIPTS_DIR=$(cd $(dirname $0); pwd)
-BASE_DIR=$(cd $(dirname $SCRIPTS_DIR); pwd)
+BASE_DIR=$(cd $(dirname $0); pwd)
 
 PLUGIN_NAME=${BASE_DIR##*/}
 DIST_DIR=$BASE_DIR/dist
