@@ -1,0 +1,39 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "en": "Sample plugin",
+    "ja": "プラグインサンプル"
+  },
+  "description": {
+    "en": "Sample plugin, using kinton-plugin-base",
+    "ja": "kinton-plugin-baseを利用したサンプルプラグイン"
+  },
+  "icon": "image/icon.jpg",
+  "homepage_url": {
+    "ja": "https://github.com/logicheart/kintone-plugin-base"
+  },
+  "desktop": {
+    "js": [
+      "js/desktop.js"
+    ],
+    "css": [
+      "css/desktop.css"
+    ]
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js",
+      "js/config.js"
+    ],
+    "css": [
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+      "css/51-modern-default.css",
+      "css/config.css"
+    ],
+    "required_params": [
+    ]
+  }
+}
