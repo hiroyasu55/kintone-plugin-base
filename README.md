@@ -54,10 +54,10 @@ $ npm install
 
 ```src/manifest.json
 {
-  :
+
   "name": {
-    "en": "kintone demo plugin",
-    "ja": "kintoneデモプラグイン"
+    "en": "kintone demo plugin",
+    "ja": "kintoneデモプラグイン"
   },
   "description": {
     "en": "Demo plugin, using kinton-plugin-base",
@@ -65,9 +65,10 @@ $ npm install
   },
   "icon": "image/icon.png",
   "homepage_url": {
-    "ja": "https:〜"
+    "en": "https:〜",
+    "ja": "https:〜"
   },
-  ：
+
 }
 ```
 
