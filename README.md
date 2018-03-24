@@ -6,7 +6,8 @@ kintoneプラグインを作成するための雛形です。
 
 ## Requirement
 * Node.js
-* npm (>5.2.0)
+* npm
+* npx (npm 5.2.0以上ならnpmにバンドルされる）
 
 ## How to Use
 
@@ -78,7 +79,7 @@ $ npm install
 srcディレクトリ以下のファイルを編集した後、gulpを実行してビルドします。
 
 ```
-$ gulp
+$ npx gulp
 ```
 
 プラグインファイルとして　dist/my-plugin.zip が出力されます。
@@ -86,7 +87,7 @@ $ gulp
 * ソースの変更を監視しプラグインファイルを自動生成する場合
 
 ```
-$ gulp　ｗａｔｃｈ
+$ npx gulp　ｗａｔｃｈ
 ```
 
 ## Reference
